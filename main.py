@@ -5,7 +5,8 @@ fake = Faker()
 
 def hello():
     name = fake.name()
-    print("Helo,", name)
+    print("Hello,", name)
 
 
-hello()
+if __name__ == "__main__":
+    hello()

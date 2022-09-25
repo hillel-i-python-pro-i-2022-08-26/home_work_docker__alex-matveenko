@@ -10,14 +10,14 @@ init-dev:
 	@pip install --upgrade pip && \
 	  pip install --requirement requirements.txt
 
-.PHONY: doc-i-run
+.PHONY: d-homework-i-run
 # Make all actions needed for run project.
-doc-i-run:
+d-homework-i-run:
 	@make doc-run
 
-.PHONY: doc-i-purge
+.PHONY: d-homework-i-purge
 # Make all actions needed for purge project and related data.
-doc-i-purge:
+d-homework-i-purge:
 	@make doc-purge
 
 
